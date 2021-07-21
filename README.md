@@ -1,2 +1,2 @@
 # WinRAR-Keygen-GUI
-A Graphical User Interface for WinRAR keygen
+A WinRAR Keygen with Graphical User Interface
