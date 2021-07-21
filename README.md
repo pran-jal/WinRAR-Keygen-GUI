@@ -7,3 +7,8 @@ Use the `KeygenGUI.exe` file to generate the key.
   2. wait for a moment and a `rarreg.key` file will be generated in the same directory.
   3. copy and paste this file in `WinRAR` installation directory.
   4. Restart `WinRAR`
+
+<br>
+<br>
+
+I have only created the GUI that uses [winrar-keygen](https://github.com/chalsr/winrar-keygen/tree/master/math_functions) by chalsr to generate the key file.
