@@ -11,4 +11,4 @@ Use the `KeygenGUI.exe` file to generate the key.
 <br>
 <br>
 
-I have only created the GUI that uses [winrar-keygen](https://github.com/chalsr/winrar-keygen/tree/master/math_functions) by chalsr to generate the key file.
+I have only created the GUI that uses [winrar-keygen](https://github.com/chalsr/winrar-keygen/tree/master) by chalsr to generate the key file.
