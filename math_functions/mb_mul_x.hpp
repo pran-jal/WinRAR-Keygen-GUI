@@ -79,21 +79,6 @@ namespace accel::math {
         return true;
     }
 
-//     __forceinline bool mb_mul_mb_Karatsuba(const uint64_t multiplier[], const uint64_t multiplicand[], size_t length1,
-//                                            uint64_t product[], size_t length2) {
-//         if (length1 == 0 || length2 == 0)
-//             return false;
-// 
-//         while (length1 > 0 && multiplier[length1 - 1] == 0 && multiplicand[length1 - 1] == 0)
-//             --length1;
-// 
-//         if (length1 * 2 > length2)
-//             return false;
-// 
-//         accel::algorithm::math::MultiplyByKaratsuba(multiplier, multiplicand, length1, product);
-//         return true;
-//     }
-
 #elif defined(_M_IX86)
 
     __forceinline uint32_t mb_mul_u32(uint32_t multiplier[], size_t length,
@@ -172,18 +157,6 @@ namespace accel::math {
         }
         return true;
     }
-
-//     __forceinline bool mb_mul_mb_Karatsuba(const uint32_t multiplier[], const uint32_t multiplicand[], size_t length1,
-//                                            uint32_t product[], size_t length2) {
-//         if (length1 == 0 || length2 == 0)
-//             return false;
-// 
-//         if (length1 * 2 > length2)
-//             return false;
-// 
-//         accel::algorithm::math::MultiplyByKaratsuba(multiplier, multiplicand, length1, product);
-//         return true;
-//     }
 
 #endif
 
