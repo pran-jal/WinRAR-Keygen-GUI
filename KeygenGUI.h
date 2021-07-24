@@ -1,3 +1,8 @@
+/*********************************************************************
+* Project:   WinRAR-Keygen-GUI
+* Author:     Pranjal (https://github.com/pran-jal)
+*********************************************************************/
+
 #pragma once
 
 #include <msclr/marshal.h>
