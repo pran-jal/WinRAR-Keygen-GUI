@@ -1,3 +1,7 @@
+/*********************************************************************
+* Project:   WinRAR-Keygen-GUI
+* Author:     Pranjal (https://github.com/pran-jal)
+*********************************************************************/
 
 #include <tchar.h>
 #include <windows.h>
